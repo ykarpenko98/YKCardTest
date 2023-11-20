@@ -1,0 +1,722 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C33325612B0B7FB50010B454 /* CardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33325602B0B7FB50010B454 /* CardItem.swift */; };
+		C3600C512B07F0220059B159 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3600C502B07F0220059B159 /* AppDelegate.swift */; };
+		C3600C532B07F0220059B159 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3600C522B07F0220059B159 /* SceneDelegate.swift */; };
+		C3600C552B07F0220059B159 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3600C542B07F0220059B159 /* ViewController.swift */; };
+		C3600C582B07F0220059B159 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3600C562B07F0220059B159 /* Main.storyboard */; };
+		C3600C5A2B07F0240059B159 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3600C592B07F0240059B159 /* Assets.xcassets */; };
+		C3600C5D2B07F0240059B159 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3600C5B2B07F0240059B159 /* LaunchScreen.storyboard */; };
+		C3600C682B07F0240059B159 /* YKCardsTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3600C672B07F0240059B159 /* YKCardsTestTests.swift */; };
+		C3600C722B07F0240059B159 /* YKCardsTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3600C712B07F0240059B159 /* YKCardsTestUITests.swift */; };
+		C3600C742B07F0240059B159 /* YKCardsTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3600C732B07F0240059B159 /* YKCardsTestUITestsLaunchTests.swift */; };
+		C3600C822B0923F90059B159 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = C3600C812B0923F90059B159 /* SnapKit */; };
+		C3600C842B0928AB0059B159 /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3600C832B0928AB0059B159 /* CardCollectionViewCell.swift */; };
+		C3600C872B0AC2C50059B159 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = C3600C862B0AC2C50059B159 /* Kingfisher */; };
+		C3600C8A2B0AD7BB0059B159 /* UICollectionView+Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3600C892B0AD7BB0059B159 /* UICollectionView+Reusable.swift */; };
+		C3600C8E2B0ADD4B0059B159 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3600C8D2B0ADD4B0059B159 /* ViewModel.swift */; };
+		C3600C912B0ADE050059B159 /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C3600C902B0ADE050059B159 /* FirebaseRemoteConfigSwift */; };
+		C3600C932B0AE0680059B159 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C3600C922B0AE0680059B159 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C3600C642B07F0240059B159 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3600C452B07F0220059B159 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3600C4C2B07F0220059B159;
+			remoteInfo = YKCardsTest;
+		};
+		C3600C6E2B07F0240059B159 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3600C452B07F0220059B159 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3600C4C2B07F0220059B159;
+			remoteInfo = YKCardsTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C33325602B0B7FB50010B454 /* CardItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardItem.swift; sourceTree = "<group>"; };
+		C3600C4D2B07F0220059B159 /* YKCardsTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YKCardsTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3600C502B07F0220059B159 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C3600C522B07F0220059B159 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C3600C542B07F0220059B159 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C3600C572B07F0220059B159 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C3600C592B07F0240059B159 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C3600C5C2B07F0240059B159 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C3600C5E2B07F0240059B159 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3600C632B07F0240059B159 /* YKCardsTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YKCardsTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3600C672B07F0240059B159 /* YKCardsTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YKCardsTestTests.swift; sourceTree = "<group>"; };
+		C3600C6D2B07F0240059B159 /* YKCardsTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YKCardsTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3600C712B07F0240059B159 /* YKCardsTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YKCardsTestUITests.swift; sourceTree = "<group>"; };
+		C3600C732B07F0240059B159 /* YKCardsTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YKCardsTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C3600C832B0928AB0059B159 /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
+		C3600C892B0AD7BB0059B159 /* UICollectionView+Reusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Reusable.swift"; sourceTree = "<group>"; };
+		C3600C8D2B0ADD4B0059B159 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		C3600C922B0AE0680059B159 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3600C4A2B07F0220059B159 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3600C912B0ADE050059B159 /* FirebaseRemoteConfigSwift in Frameworks */,
+				C3600C872B0AC2C50059B159 /* Kingfisher in Frameworks */,
+				C3600C822B0923F90059B159 /* SnapKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3600C602B07F0240059B159 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3600C6A2B07F0240059B159 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C333255E2B0B7F730010B454 /* Sample */ = {
+			isa = PBXGroup;
+			children = (
+				C333255F2B0B7FAA0010B454 /* Model */,
+				C3600C8B2B0ADD280059B159 /* Views */,
+				C3600C542B07F0220059B159 /* ViewController.swift */,
+				C3600C8D2B0ADD4B0059B159 /* ViewModel.swift */,
+			);
+			path = Sample;
+			sourceTree = "<group>";
+		};
+		C333255F2B0B7FAA0010B454 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C33325602B0B7FB50010B454 /* CardItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C3600C442B07F0220059B159 = {
+			isa = PBXGroup;
+			children = (
+				C3600C4F2B07F0220059B159 /* YKCardsTest */,
+				C3600C662B07F0240059B159 /* YKCardsTestTests */,
+				C3600C702B07F0240059B159 /* YKCardsTestUITests */,
+				C3600C4E2B07F0220059B159 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3600C4E2B07F0220059B159 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3600C4D2B07F0220059B159 /* YKCardsTest.app */,
+				C3600C632B07F0240059B159 /* YKCardsTestTests.xctest */,
+				C3600C6D2B07F0240059B159 /* YKCardsTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3600C4F2B07F0220059B159 /* YKCardsTest */ = {
+			isa = PBXGroup;
+			children = (
+				C3600C502B07F0220059B159 /* AppDelegate.swift */,
+				C3600C522B07F0220059B159 /* SceneDelegate.swift */,
+				C3600C562B07F0220059B159 /* Main.storyboard */,
+				C3600C8C2B0ADD310059B159 /* Extensions */,
+				C333255E2B0B7F730010B454 /* Sample */,
+				C3600C592B07F0240059B159 /* Assets.xcassets */,
+				C3600C5B2B07F0240059B159 /* LaunchScreen.storyboard */,
+				C3600C5E2B07F0240059B159 /* Info.plist */,
+				C3600C922B0AE0680059B159 /* GoogleService-Info.plist */,
+			);
+			path = YKCardsTest;
+			sourceTree = "<group>";
+		};
+		C3600C662B07F0240059B159 /* YKCardsTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				C3600C672B07F0240059B159 /* YKCardsTestTests.swift */,
+			);
+			path = YKCardsTestTests;
+			sourceTree = "<group>";
+		};
+		C3600C702B07F0240059B159 /* YKCardsTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C3600C712B07F0240059B159 /* YKCardsTestUITests.swift */,
+				C3600C732B07F0240059B159 /* YKCardsTestUITestsLaunchTests.swift */,
+			);
+			path = YKCardsTestUITests;
+			sourceTree = "<group>";
+		};
+		C3600C8B2B0ADD280059B159 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C3600C832B0928AB0059B159 /* CardCollectionViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C3600C8C2B0ADD310059B159 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C3600C892B0AD7BB0059B159 /* UICollectionView+Reusable.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3600C4C2B07F0220059B159 /* YKCardsTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3600C772B07F0240059B159 /* Build configuration list for PBXNativeTarget "YKCardsTest" */;
+			buildPhases = (
+				C3600C492B07F0220059B159 /* Sources */,
+				C3600C4A2B07F0220059B159 /* Frameworks */,
+				C3600C4B2B07F0220059B159 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YKCardsTest;
+			packageProductDependencies = (
+				C3600C812B0923F90059B159 /* SnapKit */,
+				C3600C862B0AC2C50059B159 /* Kingfisher */,
+				C3600C902B0ADE050059B159 /* FirebaseRemoteConfigSwift */,
+			);
+			productName = YKCardsTest;
+			productReference = C3600C4D2B07F0220059B159 /* YKCardsTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C3600C622B07F0240059B159 /* YKCardsTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3600C7A2B07F0240059B159 /* Build configuration list for PBXNativeTarget "YKCardsTestTests" */;
+			buildPhases = (
+				C3600C5F2B07F0240059B159 /* Sources */,
+				C3600C602B07F0240059B159 /* Frameworks */,
+				C3600C612B07F0240059B159 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3600C652B07F0240059B159 /* PBXTargetDependency */,
+			);
+			name = YKCardsTestTests;
+			productName = YKCardsTestTests;
+			productReference = C3600C632B07F0240059B159 /* YKCardsTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C3600C6C2B07F0240059B159 /* YKCardsTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3600C7D2B07F0240059B159 /* Build configuration list for PBXNativeTarget "YKCardsTestUITests" */;
+			buildPhases = (
+				C3600C692B07F0240059B159 /* Sources */,
+				C3600C6A2B07F0240059B159 /* Frameworks */,
+				C3600C6B2B07F0240059B159 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3600C6F2B07F0240059B159 /* PBXTargetDependency */,
+			);
+			name = YKCardsTestUITests;
+			productName = YKCardsTestUITests;
+			productReference = C3600C6D2B07F0240059B159 /* YKCardsTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3600C452B07F0220059B159 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					C3600C4C2B07F0220059B159 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					C3600C622B07F0240059B159 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = C3600C4C2B07F0220059B159;
+					};
+					C3600C6C2B07F0240059B159 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = C3600C4C2B07F0220059B159;
+					};
+				};
+			};
+			buildConfigurationList = C3600C482B07F0220059B159 /* Build configuration list for PBXProject "YKCardsTest" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C3600C442B07F0220059B159;
+			packageReferences = (
+				C3600C802B0923F90059B159 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				C3600C852B0AC2C50059B159 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				C3600C8F2B0ADE050059B159 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = C3600C4E2B07F0220059B159 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3600C4C2B07F0220059B159 /* YKCardsTest */,
+				C3600C622B07F0240059B159 /* YKCardsTestTests */,
+				C3600C6C2B07F0240059B159 /* YKCardsTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3600C4B2B07F0220059B159 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3600C5D2B07F0240059B159 /* LaunchScreen.storyboard in Resources */,
+				C3600C932B0AE0680059B159 /* GoogleService-Info.plist in Resources */,
+				C3600C5A2B07F0240059B159 /* Assets.xcassets in Resources */,
+				C3600C582B07F0220059B159 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3600C612B07F0240059B159 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3600C6B2B07F0240059B159 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3600C492B07F0220059B159 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3600C842B0928AB0059B159 /* CardCollectionViewCell.swift in Sources */,
+				C3600C8A2B0AD7BB0059B159 /* UICollectionView+Reusable.swift in Sources */,
+				C3600C552B07F0220059B159 /* ViewController.swift in Sources */,
+				C3600C512B07F0220059B159 /* AppDelegate.swift in Sources */,
+				C3600C8E2B0ADD4B0059B159 /* ViewModel.swift in Sources */,
+				C33325612B0B7FB50010B454 /* CardItem.swift in Sources */,
+				C3600C532B07F0220059B159 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3600C5F2B07F0240059B159 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3600C682B07F0240059B159 /* YKCardsTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3600C692B07F0240059B159 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3600C742B07F0240059B159 /* YKCardsTestUITestsLaunchTests.swift in Sources */,
+				C3600C722B07F0240059B159 /* YKCardsTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C3600C652B07F0240059B159 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3600C4C2B07F0220059B159 /* YKCardsTest */;
+			targetProxy = C3600C642B07F0240059B159 /* PBXContainerItemProxy */;
+		};
+		C3600C6F2B07F0240059B159 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3600C4C2B07F0220059B159 /* YKCardsTest */;
+			targetProxy = C3600C6E2B07F0240059B159 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C3600C562B07F0220059B159 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3600C572B07F0220059B159 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C3600C5B2B07F0240059B159 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3600C5C2B07F0240059B159 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3600C752B07F0240059B159 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C3600C762B07F0240059B159 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3600C782B07F0240059B159 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8FJ5N7YC28;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YKCardsTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ykarpenka.YKCardsTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C3600C792B07F0240059B159 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8FJ5N7YC28;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = YKCardsTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ykarpenka.YKCardsTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C3600C7B2B07F0240059B159 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8FJ5N7YC28;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ykarpenka.YKCardsTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YKCardsTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/YKCardsTest";
+			};
+			name = Debug;
+		};
+		C3600C7C2B07F0240059B159 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8FJ5N7YC28;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ykarpenka.YKCardsTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YKCardsTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/YKCardsTest";
+			};
+			name = Release;
+		};
+		C3600C7E2B07F0240059B159 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8FJ5N7YC28;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ykarpenka.YKCardsTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YKCardsTest;
+			};
+			name = Debug;
+		};
+		C3600C7F2B07F0240059B159 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8FJ5N7YC28;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ykarpenka.YKCardsTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YKCardsTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3600C482B07F0220059B159 /* Build configuration list for PBXProject "YKCardsTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3600C752B07F0240059B159 /* Debug */,
+				C3600C762B07F0240059B159 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3600C772B07F0240059B159 /* Build configuration list for PBXNativeTarget "YKCardsTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3600C782B07F0240059B159 /* Debug */,
+				C3600C792B07F0240059B159 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3600C7A2B07F0240059B159 /* Build configuration list for PBXNativeTarget "YKCardsTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3600C7B2B07F0240059B159 /* Debug */,
+				C3600C7C2B07F0240059B159 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3600C7D2B07F0240059B159 /* Build configuration list for PBXNativeTarget "YKCardsTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3600C7E2B07F0240059B159 /* Debug */,
+				C3600C7F2B07F0240059B159 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C3600C802B0923F90059B159 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		C3600C852B0AC2C50059B159 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		C3600C8F2B0ADE050059B159 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C3600C812B0923F90059B159 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3600C802B0923F90059B159 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		C3600C862B0AC2C50059B159 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3600C852B0AC2C50059B159 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		C3600C902B0ADE050059B159 /* FirebaseRemoteConfigSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C3600C8F2B0ADE050059B159 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfigSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C3600C452B07F0220059B159 /* Project object */;
+}
